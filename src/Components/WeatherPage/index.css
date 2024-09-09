@@ -1,0 +1,99 @@
+.weather-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    height:90vh;
+    padding: 60px 20px 20px 20px;
+    
+
+}
+
+.weather-card{
+    border-radius: 8px;
+    background-color: #ffffff;
+    width:60%;
+    padding: 4px;
+    font-family: "Roboto";
+}
+
+.timebar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 16px 2px 6px;
+}
+
+.weather-title{
+    color: #78CBBF;
+    font-size: 20px;
+}
+
+.time{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.city{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.weather-desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 16px 4px 16px;
+    height: 60px;
+}
+
+.cloud-img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.description{
+    font-size: 16px;
+}
+
+.temperature{
+    display: flex;
+    align-items: center;
+}
+
+.temp-heading{
+    font-size: 35px;
+    margin-left: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.Celsius{
+    padding-top: 15px;
+    font-size: 40px;
+    font-weight:600;
+}
+.main{
+    font-size: 16px;
+    margin-right: 60px;
+}
+.feels-like{
+    font-size: 16px;
+    margin: 2px 0 0 10px;
+    margin-right: 60px;
+
+}
+
+.other-details{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+li{
+    margin-left: 20px;
+}
